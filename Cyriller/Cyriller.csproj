@@ -3,16 +3,13 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
     <TargetsForTfmSpecificBuildOutput>$(TargetsForTfmSpecificBuildOutput);CopyProjectReferencesToPackage</TargetsForTfmSpecificBuildOutput>
-    <PackageId>Miyconst.Cyriller</PackageId>
-    <Version>0.1.1</Version>
+    <PackageId>FemidaLab.Cyriller</PackageId>
+    <Version>0.1.2</Version>
     <Description>Библиотека для склонения существительных, прилагательных, чисел и личных имен русского языка по падежам.</Description>
-    <Company>http://www.miyconst.com/</Company>
-    <Copyright>Copyright © Konstantin Mi 2014-2020</Copyright>
-    <PackageLicenseUrl>https://github.com/miyconst/Cyriller/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/miyconst/Cyriller</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/miyconst/Cyriller</RepositoryUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/miyconst/Cyriller/master/Cyriller.Web/favicon.ico</PackageIconUrl>
-    <Authors>Konstantin Mi (miyconst)</Authors>
+    <Company></Company>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl></RepositoryUrl>
+    <Authors>Konstantin Sharygin</Authors>
     <PackageTags>склонение существительное прилагательное число имя падеж</PackageTags>
     <PackageReleaseNotes>Улучшена работа класса CyrName для склонения имен иностранного происхождения с 'оглы' и 'кызы', без использования словаря.</PackageReleaseNotes>
   </PropertyGroup>
@@ -32,7 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
   <ItemGroup>
